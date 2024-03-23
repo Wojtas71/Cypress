@@ -1,5 +1,5 @@
 // Test nr 1
-describe("Pierwszy blok testów", () => {
+describe("Testy Moduł 2", () => {
         it("Wpisz email user888", () => {
         cy.visit("https://www.edu.goit.global/account/login");
         cy.get('#user_email').type('user888@gmail.com');
@@ -12,7 +12,7 @@ describe("Pierwszy blok testów", () => {
         cy.get(':nth-child(12) > .next-bve2vl').click();
         });
       
-        it("Wpisz email user888", () => {
+        it("Wpisz email testowyqa", () => {
         cy.visit("https://www.edu.goit.global/account/login");
         cy.get('#user_email').scrollIntoView().should("be.visible").type('testowyqa@qa.team');
         cy.get('#user_password').scrollIntoView().should("be.visible").type('QA!automation-1');
