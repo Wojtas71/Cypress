@@ -3,7 +3,7 @@
 Zadanie domowe do modułu nr 2 
 
 1. Pliki do zadani domowego
-- e2e/QAA-HW-02.cy.js 
+- cypress/e2e/QAA-HW-02.cy.js 
 
 2. Pozostałe pliki to wyniki konfiguracji z modułu nr 1.
 
