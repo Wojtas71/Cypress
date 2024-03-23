@@ -14,8 +14,6 @@ describe("Testy Moduł 2", () => {
       
         it("Wpisz email testowyqa", () => {
         cy.visit("https://www.edu.goit.global/account/login");
-        // cy.get('#user_email').scrollIntoView().should("be.visible").type('testowyqa@qa.team');
-        // cy.get('#user_password').scrollIntoView().should("be.visible").type('QA!automation-1');
         cy.login("testowyqa@qa.team", "QA!automation-1");
         cy.get('[type="submit"]').should("have.text", "Log in").click();
         cy.get('#open-navigation-menu-mobile').scrollIntoView().should("be.visible").wait(3000).click();
@@ -23,10 +21,3 @@ describe("Testy Moduł 2", () => {
         });
     });
 
-
-
-    // describe("login test", () => {
-    //     it("admin login", () => {
-    //       cy.visit("somesite.com");
-    //           cy.login("admin", "adminPassword");
-    //     });
