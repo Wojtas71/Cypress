@@ -1,6 +1,7 @@
 # Cypress
 
 _________________________ NEW __________________________
+
 Zadnie domowe do modułu nr 3
 
 1. Pliki do zadania domowego
@@ -11,6 +12,7 @@ Zadnie domowe do modułu nr 3
 2. Pozostałe pliki to wyniki konfiguracji z modułu nr 1.
 
 _________________________ DONE __________________________
+
 Zadanie domowe do modułu nr 2 
 
 1. Pliki do zadani domowego
