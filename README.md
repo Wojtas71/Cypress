@@ -2,14 +2,23 @@
 
 _________________________ NEW __________________________
 
+==> Zadanie domowe do mogułu nr 5
+
+1. Pliki do zadania domowego
+- cypress/artillery/axolotl_test.yml
+- cypress/artillery/facts.json
+- cypress/artillery/Artillery tests results.txt
+
+2. Pozostałe pliki to wyniki konfiguracji z modułu nr 1.
+
+_________________________ DONE __________________________
+
 ==> Zadanie domowe do mogułu nr 4
 
 1. Pliki do zadania domowego
 - cypress/e2e/QAA_HW_04.spec.js
 
 2. Pozostałe pliki to wyniki konfiguracji z modułu nr 1.
-
-_________________________ DONE __________________________
 
 ==> Zadnie domowe do modułu nr 3
 

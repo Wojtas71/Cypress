@@ -1,0 +1,42 @@
+config:
+  target: 'https://theaxolotlapi.netlify.app'
+  phases:
+    - duration: 60
+      arrivalRate: 10
+
+scenarios:
+  - flow:
+      - get:
+          url: '/facts'
+          capture:
+            - json: '$.text'
+              as: 'fact'
+      - post:
+          url: '/image'
+          json:
+            fact: '{{ fact }}'
+          capture:
+            - json: '$.src'
+              as: 'imageSrc'
+
+payloads:
+  - name: 'facts'
+    path: './facts.json'
+
+hooks:
+  - beforeRequest: 'payloads'
+  - afterResponse: 'capture'
+
+defaults:
+  headers:
+    Content-Type: 'application/json'
+
+scopes:
+  fact: 'unique'
+  imageSrc: 'unique'
+
+thresholds:
+  response_time:
+    p95: 500
+  error_rate:
+    min: 0
