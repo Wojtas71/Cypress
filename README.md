@@ -2,7 +2,7 @@
 
 _________________________ NEW __________________________
 
-==> Zadanie domowe do mogułu nr 5
+==> Zadanie domowe do modułu nr 5
 
 1. Pliki do zadania domowego
 - cypress/artillery/axolotl_test.yml
@@ -13,7 +13,7 @@ _________________________ NEW __________________________
 
 _________________________ DONE __________________________
 
-==> Zadanie domowe do mogułu nr 4
+==> Zadanie domowe do modułu nr 4
 
 1. Pliki do zadania domowego
 - cypress/e2e/QAA_HW_04.spec.js
